@@ -1,6 +1,6 @@
 // get all buttons
 const quoteGenerator = document.getElementById("Quote-generator");
-const soccerQuiz = document.getElementById("soccer-quiz");
+// const soccerQuiz = document.getElementById("soccer-quiz");
 const Fylo = document.getElementById("Fylo");
 const Netflix = document.getElementById("Netflix");
 const google = document.getElementById("google");
@@ -38,13 +38,13 @@ function toggleViewDisplay() {
     googleView.style.display = "block";
   });
 
-  soccerQuiz.addEventListener("click", () => {
-    quoteGeneratorView.style.display = "none";
-    soccerQuizView.style.display = "block";
-    FyloView.style.display = "none";
-    NetflixView.style.display = "none";
-    googleView.style.display = "none";
-  });
+  // soccerQuiz.addEventListener("click", () => {
+  //   quoteGeneratorView.style.display = "none";
+  //   soccerQuizView.style.display = "block";
+  //   FyloView.style.display = "none";
+  //   NetflixView.style.display = "none";
+  //   googleView.style.display = "none";
+  // });
 
   Fylo.addEventListener("click", () => {
     quoteGeneratorView.style.display = "none";
