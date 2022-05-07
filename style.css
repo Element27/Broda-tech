@@ -198,8 +198,6 @@ p {
   padding: 1rem;
   border-radius: 1rem;
   background-color: #1a193d5d;
-  /* background-color: #47476377; */
-  /* background-color: #01002877; */
   box-shadow: 0 0 3px 3px #474763;
 }
 
@@ -303,6 +301,10 @@ footer{
   justify-content: space-evenly;
 }
 
+.embeded-page {
+
+  height: 20rem;
+}
 }
 @media screen and (min-width:600px) {
   #logo{
@@ -318,6 +320,11 @@ footer{
  .list button{
    width: 200px;
  }
+ 
+.embeded-page {
+
+  height: 35rem;
+}
 }
 
 
