@@ -185,10 +185,23 @@ p {
 
 
 .list button {
+  border-radius: 1rem;
   width: 27rem;
   padding: 1rem;
   font-size: 1.8rem;
   margin: 1rem;
+  background: linear-gradient(to bottom, var(--service-background), var(--about-background));
+  text-shadow: 1px 1px 3px var(--about-background);
+}
+
+.list button:hover{
+  background: linear-gradient(to top, var(--service-background), var(--about-background));
+}
+
+
+.list button:active{
+  transform: translateY(3px);
+  box-shadow: 0 2px 10px 0px #64637c;
 }
 
 
