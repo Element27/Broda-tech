@@ -12,7 +12,7 @@
     <div class="main-container">
       <!-- hero section start -->
       <div class="hero-section">
-        <img src="./BRODA_ring.png" alt="" />
+        <img src="./BRODA_ring.png" alt="" id="logo" class="logo" />
         <div class="hero-text">
           <h1>BRODA TECH</h1>
           <h4>Boundless, Limitless, Broad...</h4>
@@ -22,12 +22,35 @@
       <!-- About section start  -->
       <div class="about-container">
         <h1>About Me</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-          deleniti repellendus! Aspernatur, maiores? Corrupti distinctio
-          possimus dolores, nihil quaerat exercitationem repellendus laboriosam
-          sint iste, veniam fugit numquam, quisquam nulla facere?
-        </p>
+        <div class="text">
+          <p>
+            <strong>
+              I am Akinbo Olamilekan Daniel, graduate of Mass Communication,
+              Yaba College of Technology, and Broda Tech is my brand.
+            </strong>
+          </p>
+
+          <p class="italics">
+            Broda Tech was born out of the realization that there are endless
+            opportunity present in tech, and those opportunities have been made
+            even broader by the arrival of Web 3.
+          </p>
+          <p>
+            Akinbo Olamilekan Daniel (ArakunrinOla) is a Frontend Web Developer
+            enthusiastic about the workings of the Web 3 technology. My venture
+            into tech started out of curiosity back in 2019 when I was first
+            exposed to the block chain, and I have ever since been excited to
+            get involved and be a part of the vast broader space of Web 3, and
+            frontend web development is my entry point.
+          </p>
+          <p>
+            As a budding Frontend Web Developer, who is mostly self-taught, I
+            have taken my time to develop Competence in building responsive web
+            pages with HTML, CSS and JavaScript to meet modern Web Development
+            Standard. In coming months, I am looking to add React and Nodejs
+            from the MERN stack in my journey to being a Web 3 Developer.
+          </p>
+        </div>
       </div>
       <!-- About section end -->
       <!-- Service section -->
@@ -46,56 +69,50 @@
         <h1>Sample Project</h1>
         <!-- project list -->
         <div class="project-list">
-          <p>Select an option to preview it:</p>
+          <p>
+            When you click any a button a preview appears. its not magic, its J
+            avaScript:
+          </p>
           <div class="list">
-            <div class="project-option">
-              <input
-                type="radio"
-                id="Quote-generator"
-                name="fav_language"
-                value="HTML"
-              />
-                <label for="Quote-generator">Quote Generator</label>
+            <div class="">
+              <button id="Quote-generator">Quote Generator</button>
             </div>
-            <div class="project-option">
-              <input
-                type="radio"
-                id="soccer-quiz"
-                name="fav_language"
-                value="HTML"
-              />
-                <label for="soccer-quiz">Soccer Quiz</label>
-            </div>
-            <div class="project-option">
-              <input type="radio" id="Fylo" name="fav_language" value="HTML" />
-                <label for="Fylo">Fylo</label>
-            </div>
-            <div class="project-option">
-              <input
-                type="radio"
-                id="Netflix"
-                name="fav_language"
-                value="HTML"
-              />
-                <label for="Netflix">Netflix Landing Page</label>
-            </div>
-            <div class="project-option">
-              <input
-                type="radio"
-                id="google"
-                name="fav_language"
-                value="HTML"
-              />
-                <label for="google">Google Landing Page</label>
-            </div>
+            <div><button id="soccer-quiz">Soccer Quiz</button></div>
+            <div><button id="Fylo">Fylo</button></div>
+            <div><button id="Netflix">Netflix</button></div>
+            <div><button id="google">Google</button></div>
           </div>
         </div>
 
-        <div class="project-view">
+        <!-- project 1 -->
+        <div class="project-view" id="quote-generator-view">
           <div class="project-view-header">
-            <h3>Google Landing Page</h3>
+            <h3>Quote Generator</h3>
             <div class="project-preview">
-              <embed src="https://heropatterns.com/" class="embeded-page"/>
+              <embed
+                src="https://broda-quote-generator.netlify.app/"
+                class="embeded-page"
+              />
+            </div>
+            <div class="project-view-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident debitis dolore
+                <span
+                  ><a href="https://broda-quote-generator.netlify.app/"
+                    >here</a
+                  ></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- project 2 -->
+        <div class="project-view" id="soccer-quiz-view">
+          <div class="project-view-header">
+            <h3>Project 2</h3>
+            <div class="project-preview">
+              <embed src="https://heropatterns.com/" class="embeded-page" />
             </div>
             <div class="project-view-desc">
               <p>
@@ -105,21 +122,96 @@
             </div>
           </div>
         </div>
+        <!-- project 3 -->
+        <div class="project-view" id="fylo-view">
+          <div class="project-view-header">
+            <h3>Fylo</h3>
+            <div class="project-preview">
+              <embed
+                src="https://capstoneprojectgrp14.netlify.app/"
+                class="embeded-page"
+              />
+            </div>
+            <div class="project-view-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident debitis dolore
+                <span
+                  ><a href="https://capstoneprojectgrp14.netlify.app/"
+                    >here</a
+                  ></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- project 4 -->
+        <div class="project-view" id="netflix-view">
+          <div class="project-view-header">
+            <h3>Netflix Landing Page</h3>
+            <div class="project-preview">
+              <embed
+                src="https://netflix-dummy-landingpage.netlify.app/"
+                class="embeded-page"
+              />
+            </div>
+            <div class="project-view-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident debitis dolore
+                <span
+                  ><a href="https://netflix-dummy-landingpage.netlify.app/"
+                    >here</a
+                  ></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="project-view" id="google-view">
+          <div class="project-view-header">
+            <h3>Google Landing Page</h3>
+            <div class="project-preview">
+              <embed
+                src="https://google-dummy-landingpage.netlify.app/"
+                class="embeded-page"
+              />
+            </div>
+            <div class="project-view-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident debitis dolore
+                <span
+                  ><a href="https://google-dummy-landingpage.netlify.app/"
+                    >here</a
+                  ></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- sample project end -->
       <!-- footer start -->
       <div class="footer">
         <h4>
-          Available to collaborate on project and Start ups and for Frontend Web
-          Developer role, including remote opportunites.
+          I am vailable to collaborate on project and Start ups and for Frontend Web
+          Developer role, including remote opportunites and internships.
         </h4>
         <div>
-          <a href=""
-            ><i><img src="" alt="" />Github Repository</i></a
-          >
-          <p>email</p>
+          <div class="git">
+            <img src="/git.svg" alt="" />
+            <a href="https://github.com/Element27/">Github Repository</a>
+          </div>
+          <div class="git">
+            <img src="/git.svg" alt="" />
+            <a href="">Github Repository</a>
+          </div>
+          <p>email: <span>akinboolami@gmail.com</span></p>
         </div>
       </div>
     </div>
+    <script src="/script.js"></script>
   </body>
 </html>
